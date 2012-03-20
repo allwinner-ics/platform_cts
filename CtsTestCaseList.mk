@@ -63,7 +63,10 @@ CTS_COVERAGE_TEST_CASE_LIST := \
 	CtsUtilTestCases \
 	CtsViewTestCases \
 	CtsWebkitTestCases \
-	CtsWidgetTestCases
+	CtsWidgetTestCases \
+        CameraTests \
+        mediaframeworktest \
+        ConnectivityManagerTest
 
 CTS_TEST_CASE_LIST := \
 	TestDeviceSetup \
