@@ -64,9 +64,14 @@ CTS_COVERAGE_TEST_CASE_LIST := \
 	CtsViewTestCases \
 	CtsWebkitTestCases \
 	CtsWidgetTestCases \
+        
+
+CTS_Exdroid_TEST_CASE_LIST := \
         CameraTests \
         mediaframeworktest \
-        ConnectivityManagerTest
+        ConnectivityManagerTest \
+        SettingsTests \
+        BrowserTests 
 
 CTS_TEST_CASE_LIST := \
 	TestDeviceSetup \
@@ -76,7 +81,8 @@ CTS_TEST_CASE_LIST := \
 	ApiDemos \
 	ApiDemosReferenceTest \
 	$(CTS_COVERAGE_TEST_CASE_LIST) \
-	$(CTS_SECURITY_APPS_LIST)
+	$(CTS_SECURITY_APPS_LIST) \
+	$(CTS_Exdroid_TEST_CASE_LIST)
 
 # The following files will be placed in the tools directory of the CTS distribution
 CTS_TOOLS_LIST :=
